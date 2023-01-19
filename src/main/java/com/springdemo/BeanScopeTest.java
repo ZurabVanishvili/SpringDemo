@@ -14,7 +14,7 @@ public class BeanScopeTest {
 
         boolean res = (coach2==coach);
 
-        //print out values
+        //print out some  values
 
         System.out.println("They are same equals = "+res);
 

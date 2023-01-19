@@ -29,17 +29,17 @@ public class CricketCoach implements Coach {
     }
 
     public void setFortuneServiceField(FortuneService fortuneServiceField) {
-        System.out.println("inside method");
+        System.out.println("this is setter method for CrickeCoach");
         this.fortuneServiceField = fortuneServiceField;
     }
 
     public void setEmailAddress(String emailAddress) {
-        System.out.println("setter of email");
+        System.out.println("setter method for Email");
         this.emailAddress = emailAddress;
     }
 
     public void setTeam(String team) {
-        System.out.println("setter for team");
+        System.out.println("setter method for Team");
         this.team = team;
     }
 

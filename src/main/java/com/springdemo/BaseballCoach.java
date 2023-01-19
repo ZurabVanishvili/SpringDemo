@@ -1,16 +1,18 @@
 package com.springdemo;
 
 public class BaseballCoach implements Coach {
-    public  BaseballCoach(){
-        System.out.println("no arg");
+    public BaseballCoach() {
+        System.out.println("no-arg constructor");
     }
-    private  FortuneService fortuneServiceField;
-    public  BaseballCoach(FortuneService fortuneService){
-        fortuneServiceField=fortuneService;
+
+    private FortuneService fortuneServiceField;
+
+    public BaseballCoach(FortuneService fortuneService) {
+        fortuneServiceField = fortuneService;
     }
 
     public void setFortuneServiceField(FortuneService fortuneServiceField) {
-        System.out.println("setter");
+        System.out.println("this is setter method");
         this.fortuneServiceField = fortuneServiceField;
     }
 

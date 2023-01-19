@@ -2,7 +2,9 @@ package com.springdemo;
 
 public class TrackCoach implements Coach {
 
+
     public TrackCoach() {
+        System.out.println("no-arg constructor has been called");
     }
 
     private FortuneService fortuneServiceField;
